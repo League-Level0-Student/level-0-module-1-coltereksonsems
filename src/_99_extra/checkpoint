@@ -1,0 +1,16 @@
+String favoriteHobby = "programming";
+String numberOfToes = "10";
+String degreesInARightAngle ="90";
+String myAge = "11";
+String programmingLanguage = "Java";
+double pi = 3.14159;
+string whatIWantToBeWhenIGrowUp = "Entertainment company owner";
+Int facebookFriends = "0"
+string myBirthday = "5/21/08"
+Int sidesInATriangle = "3"
+string whatDidYouGetForYourBirthday = "older"
+string lastMealYouAte = "chicken pringles and an apple"
+string whatTimeDoYouGoToBed = "9:00-10:30"
+string howManyRobotProgramsHaveyouWritten = "6"
+
+for (int i = 0; <
