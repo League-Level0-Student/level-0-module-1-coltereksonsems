@@ -32,20 +32,34 @@ C:it finishes the loop with the final charecters
 
 
 
+String q1 = JOptionPane.showInputDialog("are you happy?");
+
+if (.equals("yes"))
+		JOptionPane.showMessageDialog(null,"happy!");
+	}
+		else {
+			JOptionPane.showMessageDialog(null,"Sad, Wednesday");
+		}
+	
+	if you set the string variable to "no" nothing will change.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+	String q1 = JOptionPane.showInputDialog("How old are You?");
+ (q1.equals("BELOW 20")) {
+		JOptionPane.showMessageDialog(null,"it's great being young!");
+	}
+		else {
+			JOptionPane.showMessageDialog(null,"i sure miss being young!");
+		}
+	
+String q1 = JOptionPane.showInputDialog("name an animal");
+ (q1.equals("doge")) {
+		JOptionPane.showMessageDialog(null,"doge=much woof");
+	}
+		else {
+			JOptionPane.showMessageDialog(null,"YOU HAVE ENTERED AN UNKOWN ANIMAL THAT DOESEN'T EXIST. ONLY DOGE EXISTS. DOGE WILL RULE THE WORLD. YOU HAVE BEEN WARNED.");
+		}
 
 
 
