@@ -1,29 +1,29 @@
 String favoriteHobby = "programming";
-String numberOfToes = "10";
-String degreesInARightAngle ="90";
-String myAge = "11";
+int numberOfToes = 10;
+int degreesInARightAngle =90;
+int myAge = 11;
 String programmingLanguage = "Java";
 double pi = 3.14159;
-string whatIWantToBeWhenIGrowUp = "Entertainment company owner";
-Int facebookFriends = "0"
-string myBirthday = "5/21/08"
-Int sidesInATriangle = "3"
-string whatDidYouGetForYourBirthday = "older"
-string lastMealYouAte = "chicken pringles and an apple"
-string whatTimeDoYouGoToBed = "9:00-10:30"
-string howManyRobotProgramsHaveyouWritten = "6"
+String whatIWantToBeWhenIGrowUp = "Entertainment company owner";
+int facebookFriends = 0;
+String myBirthday = "5/21/08";
+int sidesInATriangle = "3";
+String whatDidYouGetForYourBirthday = "older";
+String lastMealYouAte = "chicken Pringles and an apple";
+String whatTimeDoYouGoToBed = "9:00-10:30";
+String howManyRobotProgramsHaveyouWritten = "6";
 
-for (int i = 0; < 1; i ++) {
-system.out.println("1 2 3 4 5 6 7 8 9 10")
+for (int i = 0; i< 10; i ++) {
+system.out.println(i)
 }
-for (int i = 0; < 1; i ++) {
-system.out.println("75 74 73 72 71 70 69 68 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50")
+for (int i = 0; < 26; i ++) {
+system.out.println(i)
 }
 A: it sets the amount that a letter equals, 0
 
 B: it declares the amount of times what's inside the curly braces will run
 
-C:it finishes the loop with the final charecters
+C:it tells the loop to add the i
 
 
 
@@ -60,20 +60,6 @@ String q1 = JOptionPane.showInputDialog("name an animal");
 		else {
 			JOptionPane.showMessageDialog(null,"YOU HAVE ENTERED AN UNKOWN ANIMAL THAT DOESEN'T EXIST. ONLY DOGE EXISTS. DOGE WILL RULE THE WORLD. YOU HAVE BEEN WARNED.");
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
