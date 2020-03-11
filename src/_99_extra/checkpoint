@@ -46,7 +46,7 @@ if (.equals("yes"))
 
 
 	String q1 = JOptionPane.showInputDialog("How old are You?");
- (q1.equals("BELOW 20")) {
+ if (q1>=20) {
 		JOptionPane.showMessageDialog(null,"it's great being young!");
 	}
 		else {
@@ -54,11 +54,14 @@ if (.equals("yes"))
 		}
 	
 String q1 = JOptionPane.showInputDialog("name an animal");
- (q1.equals("doge")) {
-		JOptionPane.showMessageDialog(null,"doge=much woof");
+ if(q1.equals("dog")) {
+		JOptionPane.showMessageDialog(null,"dog goes woof woof");
+		}
+else if(q1.equals("cat")) {
+JOptionPane.showMessageDialog(null,"cat goes meow meow");
 	}
 		else {
-			JOptionPane.showMessageDialog(null,"YOU HAVE ENTERED AN UNKOWN ANIMAL THAT DOESEN'T EXIST. ONLY DOGE EXISTS. DOGE WILL RULE THE WORLD. YOU HAVE BEEN WARNED.");
+			JOptionPane.showMessageDialog(null,"I don't know that animal.");
 		}
 
 
